@@ -1,0 +1,14 @@
+digraph {
+	A [label=Attendance]
+	H [label="Hours Studied"]
+	P [label="Parental Education Level"]
+	E [label="Extracurricular Activities"]
+	G [label="Previous Scores"]
+	X [label="Exam Score"]
+	A -> X [label=direct]
+	H -> X [label=direct]
+	P -> H [label=indirect]
+	P -> A [label=indirect]
+	E -> H [label=indirect]
+	G -> X [label=direct]
+}
