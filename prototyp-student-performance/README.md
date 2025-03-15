@@ -7,6 +7,7 @@ The study was conducted in **three main stages**:
 1. **Data Understanding** – Exploring the dataset.
 2. **Data Preprocessing** – Cleaning and encoding data for causal analysis.
 3. **Causal Model Construction** – Building a Directed Acyclic Graph (DAG) and estimating causal effects.
+4. **Causal Model Construction using different Causal Discovery Algorithms** - Automatically generating a Directed Acyclic Graph (DAG) and estimating causal effts.
 
 ---
 
@@ -105,6 +106,23 @@ Estimate what would have happened if a student had studied 5 more hours:
 ```python
 counterfactual_score = causal_model.estimate_counterfactual(student_id, hours_studied + 5)
 ```
+
+## 4. Causal Model Construction using Causal Discovery Algorithms
+**Goal:** Establish causal relationships and estimate causal effects on exam performance using automatic causal discovery algorithms.
+
+### Key Steps:
+1. **Directed Acyclic Graph (DAG) using PC-Algorithm**
+
+2. **Directed Acyclic Graph (DAG) using GES-Algorithm:**
+
+3. **Directed Acyclic Graph (DAG) using LINGAM-Algorithm:**
+   
+4. **Causal Effect Estimation:**
+   - Used identification, estimation and refute_estimation to test the automatically generated DAGs.
+  
+### Findings:
+- **PC** algorithm archieved the best DAG.
+- **Automatic Causal Discovery** can be used to easily create DAGs -> but these must be evaluated by humans with domain knowledge.
 
 ---
 
