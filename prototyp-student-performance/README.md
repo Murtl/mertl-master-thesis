@@ -1,9 +1,14 @@
 # README: CausalAI Experiment on Student Performance Factors
+It is important to notice that this project is a prototype and not everything works here. It served as an entry point 
+into the topic and helped me a lot. Take a look at the `prototyp-machine-data` folder for a more advanced prototyp
+that is closer to the desired result of my master thesis.
 
 ## Overview
-This project explores the causal relationships between various student-related factors and their impact on **Exam_Score** using **CausalAI**. The analysis is based on the Kaggle dataset **"Student Performance Factors"** (synthetic data), examining key influences like Hours_Studied, Attendance, Parental_Education_Level, Extracurricular_Activities and so on.
+This project explores the causal relationships between various student-related factors and their impact on **Exam_Score** using **CausalAI**. 
+The analysis is based on the Kaggle dataset **"Student Performance Factors"** (synthetic data), examining key influences like Hours_Studied, 
+Attendance, Parental_Education_Level, Extracurricular_Activities and so on.
 
-The study was conducted in **three main stages**:
+The study was conducted in **four main stages**:
 1. **Data Understanding** – Exploring the dataset.
 2. **Data Preprocessing** – Cleaning and encoding data for causal analysis.
 3. **Causal Model Construction** – Building a Directed Acyclic Graph (DAG) and estimating causal effects.
